@@ -7,15 +7,16 @@
 	<title>카페 웹 첫화면 로그인 폼 생성</title>
 </head>
 <body>
-	사과카페입니다.
+	Apple CAFE
 	<hr>
-	<form name="loginForm" action="login_success.jsp"
+	<form name="loginForm" action="login.jsp"
 		method="post">
-		관리자 아이디 : <br>fatal: not a git repository (or any of the parent directories): .gi
+		관리자 아이디 : <br>
 		<input type="text" name="id"><br>
 		관리자 비밀번호 : <br>
 		<input type="password" name="passwd"><br><br>
-		<input type="submit" value=" 로그인 ">
+		<input type="submit" value=" 로그인 "> <br><br>
+		<a href="signup.jsp" target=_blank> 회원가입 </a>
 	</form>
 </body>
 </html>
