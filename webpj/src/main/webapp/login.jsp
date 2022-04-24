@@ -16,7 +16,7 @@
 		String u_pw = request.getParameter("passwd");
 		
 
-		if(u_id.equals("staff") && u_pw.equals("123456"))
+		if(u_id.equals("staff") && u_pw.equals("123456789"))
 		{
 			Cookie cook_id = new Cookie("userID", "u_id");
 			Cookie cook_pw = new Cookie("userID", "u_pw");
